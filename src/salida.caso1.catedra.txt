@@ -1,0 +1,101 @@
+INTEGER:Creo y borro
+NULL
+INTEGER:Creo, seteo y borro
+54
+INTEGER:Creo, seteo, seteo y borro
+24
+INTEGER:Creo, seteo, remove, seteo y borro
+34
+STRING:Creo y borro
+NULL
+STRING:Creo, seteo y borro
+sarasa
+STRING:Creo, seteo, seteo y borro
+massarasa
+STRING:Creo, seteo, remove, seteo y borro
+massarasa
+STRING:Creo, seteo, addRight y borro
+sarasaACA
+STRING:Creo, seteo, addLeft y borro
+ACAsarasa
+STRING:Creo, seteo, addRight, addLeft (el mismo) y borro
+<-><-><-><->
+LIST:Creo y borro
+[]
+LIST:Creo, first y borro
+[NULL]
+LIST:Creo, first, first y borro
+[NULL,NULL]
+LIST:Creo, first, first remove, first y borro
+[NULL]
+LIST:Creo, first, first remove, first remove y borro
+[]
+LIST:Creo, last y borro
+[NULL]
+LIST:Creo, last, last y borro
+[NULL,NULL]
+LIST:Creo, last, last remove, last y borro
+[NULL]
+LIST:Creo, last, last remove, last remove y borro
+[]
+LIST:Creo, 4x str add, 5x remove y borro
+[aabc]
+[aab,aabc]
+[aaaa,aab,aabc]
+[aaaa,aab,aabc,zz]
+[aaaa,aab,zz]
+[aab,zz]
+[aab,zz]
+[aab]
+[]
+LIST:Creo, 4x int add, 5x remove y borro
+[842]
+[842,942]
+[331,842,942]
+[223,331,842,942]
+[331,842,942]
+[331,942]
+[331,942]
+[942]
+[942]
+MATRIX:Creo, 1x1, int y borro
+|41|
+MATRIX:Creo, 2x2, int y borro
+|NULL|41|
+|NULL|NULL|
+|NULL|41|
+|42|NULL|
+|44|41|
+|42|NULL|
+|44|41|
+|42|45|
+|46|41|
+|42|45|
+|46|41|
+|42|40|
+MATRIX:Creo, 5x8, int/str y borro
+|NULL|10|NULL|NULL|40|
+|NULL|NULL|NULL|NULL|NULL|
+|NULL|NULL|NULL|NULL|NULL|
+|NULL|NULL|NULL|NULL|NULL|
+|NULL|NULL|NULL|34|NULL|
+|NULL|NULL|NULL|NULL|NULL|
+|NULL|16|NULL|NULL|NULL|
+|NULL|17|NULL|NULL|NULL|
+|NULL|RA|NULL|NULL|40|
+|SA|SA|NULL|NULL|NULL|
+|NULL|NULL|NULL|NULL|NULL|
+|NULL|NULL|NULL|NULL|NULL|
+|NULL|NULL|NULL|34|NULL|
+|NULL|NULL|NULL|NULL|LI|
+|NULL|16|NULL|NULL|NULL|
+|NULL|17|NULL|TO|NULL|
+MATRIX:Creo, 2x4, list y borro
+|17|[82,10,22]|
+|NULL|34|
+|[10]|NULL|
+|NULL|[82,10]|
+|11|SA|
+|RA|SA|
+|SA|LI|
+|TO|[82,10]|
