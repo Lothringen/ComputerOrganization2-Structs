@@ -1,5 +1,5 @@
 # Structs 
-Implementing Integer, List, String and Matrix structs in assembly. A lab assignement for Computer Organization 2.
+Implementing Integer, List, String and Matrix structs in assembly. A lab assignment for Computer Organization 2.
 
 ## Setup
 
